@@ -1,9 +1,9 @@
 # Examen-Javascript
 examen final JS
 
-# Título del Proyecto
+# Examen-Javascript
 
-_Acá va un párrafo que describa lo que es el proyecto_
+Presentacion de una estructura Kamban, Utilizando Javascript, CSS y Por supuesto HTML
 
 ## Comenzando 🚀
 

@@ -1,7 +1,4 @@
 # Examen-Javascript
-examen final JS
-
-# Examen-Javascript
 
 Presentacion de una estructura Kamban, Utilizando Javascript, CSS y Por supuesto HTML
 

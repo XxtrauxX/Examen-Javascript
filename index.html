@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Examen-javascript</title>
     <link rel="stylesheet" href="estilos.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
@@ -17,9 +20,34 @@
     </header>
 
     <main>
-        
+        <h1 class="text-center">Marco de Trabajo Kanban</h1>
+
+        <section class="section">
+            <div class="pendiente" id="pendiente">Pendiente
+                <br>
+                <br>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" id="botonpen">Crear</button>
+            </div>
+
+            <div class="progreso" id="progreso">En progreso
+                <br>
+                <br>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" id="botonpro">Crear</button>
+            </div>
+            <div class="finalizada" id="finalizada">finalizada
+                <br>
+                <br>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" id="botonfin">Crear</button>
+            </div>
+        </section>
+
+        <section class="tarjetas">
+            <div id="pendientestar"></div>
+            <div id="progresotar"></div>
+            <div id="finalizadatar"></div>
+        </section>
     </main>
-    
 </body>
 <script src="app.js"></script>
+
 </html>

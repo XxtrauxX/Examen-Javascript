@@ -6,12 +6,105 @@
 
 nav {
 
-    background-color: lightblue;
+    background-color: rgb(143, 158, 60);
     display: flex;
     width: 100%;
    justify-content: flex-end;
    gap: 20px;
    padding: 1%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
    
+   ;
+   font-size: medium;
+   font-weight: 800;
+
 
 }
+
+
+.section {
+
+    display: flex;
+    flex-direction: row;
+    padding: 200px;
+    justify-content: space-around;
+
+
+}
+
+
+.pendiente {
+
+    background-color: yellow;
+    border-radius: 20px;
+    height: 100px;
+    width: 290px;
+    padding: 2%;
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+    font-size:large;
+    color: black
+
+
+
+}
+
+
+
+
+.progreso {
+
+    background-color: rgb(207, 0, 138);
+    border-radius: 20px;
+    height: 100px;
+    width: 290px;
+    padding: 2%;
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+    font-size:large;
+    color: white;
+
+
+
+}
+
+
+.finalizada{
+
+    background-color: rgb(0, 190, 10);
+    border-radius: 20px;
+    height: 100px;
+    width: 290px;
+    padding: 2%;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size:large;
+
+
+
+}
+
+
+.tarjetas {
+    display: flex;
+    flex-direction: row;
+    padding: 200px;
+    justify-content: space-around;
+}
+
+
+.tarpen {
+
+    background-color: lightcoral;
+}
+
+
+
+
+
+

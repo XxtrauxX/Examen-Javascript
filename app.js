@@ -10,22 +10,31 @@ const BotonEdit = document.querySelector('.iner')
 
 botonpen.addEventListener('click', ()=> {
 
+    window.location.href = '/modulo-html/formulario.html'
+
     const nuevodiv = document.createElement('div')
     const BotonEdit= document.createElement('button')
+    const BotonDes= document.createElement('button')
+    const titulo = document.querySelector('#parrafo')
+    BotonDes.textContent= "editar-descripcion"
     BotonEdit.textContent= "Editar"
+    
     
     nuevodiv.classList.add('tarpen')
     nuevodiv.innerHTML= `
-        <h1>Titulo:<button class="iner">Editar</button></h1>
+        <h1 id="parrafo" >Titulo:</h1>
         <h2>Descripcion:</h2>
-        <h2>Fecha-Inicio:</h2>`
+        <h2>Fecha-Inicio:</h2>`;
     
 
     contenpen.append(nuevodiv)
     contenpen.append(BotonEdit)
+    contenpen.append(BotonDes)
 
     BotonEdit.addEventListener('click', ()=> {
-        alert("prueba perrin")
+        window.location.href ='/modulo-html/formulario.html'
+
+        
     })
 
 })

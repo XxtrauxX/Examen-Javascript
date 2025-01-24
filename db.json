@@ -1,0 +1,37 @@
+{
+  "pendientes": [
+    {
+      "id": 1,
+      "titulo": "json-server",
+      "descripcion": "typicode",
+      "fechainicio": 12,
+      "fechafinal": 13
+    },
+    {
+      "id": 2,
+      "titulo": "ir al parque",
+      "descripcion": "visitar a familiares en el parque de la ciudad"
+    },
+    {
+      "title": "parque",
+      "descrip": "vamonos todos al parwque",
+      "id": 3
+    }
+  ],
+  "progreso": [
+    {
+      "id": 1,
+      "titulo": "some comment",
+      "descripcion": "probandoff",
+      "fechainicio": 34,
+      "fechafinal": 4141
+    }
+  ],
+  "finalizada": {
+    "id": 1,
+    "titulo": "prueba",
+    "descripcion": "pruebas",
+    "fechainicio": 354,
+    "fechafinal": 41441
+  }
+}

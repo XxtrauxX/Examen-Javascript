@@ -89,6 +89,12 @@ nav {
 
 }
 
+#tituloprin {
+
+    font-weight: 900;
+    font-size: 60px;
+}
+
 
 .tarjetas {
     display: flex;
@@ -100,7 +106,7 @@ nav {
 
 .tarpen {
 
-    background-color: lightcoral;
+    background-color: rgba(211, 139, 6, 0.699);
     width: 290px;
     height: 300px;
     color: black;
@@ -109,7 +115,9 @@ nav {
     text-align: center;
     font-style: oblique;
     border-radius: 20px;
-    padding: 3%;
+    padding: 5%;
+    margin-bottom: 20px;
+    font-size: larger;
 
 }
 

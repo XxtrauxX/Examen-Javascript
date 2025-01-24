@@ -4,7 +4,7 @@ const botonvol= document.querySelector('#regreso')
 
 botonvol.addEventListener('click', (e)=> {
     e.preventDefault()
-    window.location.href = './modulo-html/index.html'
+    window.location.href = '../index.html'
 })
 
 form.addEventListener('submit', (e) => {
@@ -19,7 +19,9 @@ form.addEventListener('submit', (e) => {
 
     const data = {
         title: titulo,
-        descrip: descripcion
+        descrip: descripcion,
+        fechainicio: fechaini,
+        fechafinal: fechafin
     }
 
 

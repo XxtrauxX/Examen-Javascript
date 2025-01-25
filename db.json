@@ -42,6 +42,16 @@
       "descripcion": "probandoff",
       "fechainicio": 34,
       "fechafinal": 4141
+    },
+    {
+      "title": "paseo parque",
+      "descrip": "vamos con toda la familia al parque",
+      "id": 2
+    },
+    {
+      "title": "paseo parque",
+      "descrip": "vamos con toda la familia al parque",
+      "id": 3
     }
   ],
   "finalizada": {

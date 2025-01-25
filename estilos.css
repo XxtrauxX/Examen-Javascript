@@ -124,5 +124,22 @@ nav {
 
 
 
+.tarpenn {
+
+    background-color: rgba(235, 26, 165, 0.699);
+    width: 290px;
+    height: 300px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-style: oblique;
+    border-radius: 20px;
+    padding: 5%;
+    margin-bottom: 20px;
+    font-size: larger;
+
+}
+
 
 
